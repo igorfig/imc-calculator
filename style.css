@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    background: rgb(173, 34, 207);
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+
+h1 {
+    margin: -2rem 0 -1rem 0;
+    color: white
+}
+
+/* title opacity */
+
+.opacity1 {
+    opacity: 0.9;
+}
+
+.opacity2 {
+    opacity: 0.8;
+}
+
+.opacity3 {
+    opacity: 0.7;
+}
+
+hr {
+    width: 88%;
+    padding: 2px;
+    background: white;
+}
+
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: -1rem;
+}
+
+.input input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    text-align: center;
+}
+
+.input input:hover {
+    background: rgb(240, 235, 235);
+    transition: 1s;
+}
+
+.input label {
+    font-size: large;
+    color: white;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    background: rgb(252, 253, 255);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(240, 235, 235);
+}
+
+.result {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black;
+    user-select: none;
+} 
+
